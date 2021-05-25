@@ -1,0 +1,20 @@
+{
+  "name": "asq",
+  "version": "1.0.0",
+  "description": "The backend of a slack bot ,'ASQ'. ASQ bot is implemented to find repetitive course information using natural language.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "node-json-db": "^0.11.0",
+    "@slack/bolt": "^3.3.0",
+    "dialogflow": "^0.6.0",
+    "@google-cloud/dialogflow": "^3.4.0",
+    "dialogflow-fulfillment": "^0.5.0",
+    "uuid": "^8.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
